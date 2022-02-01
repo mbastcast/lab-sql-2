@@ -8,8 +8,8 @@ WHERE LAST_NAME="JOHANSSON";
 #How many films (movies) are available for rent?
 SELECT
 COUNT(film_id)
-#How many films (movies) are available for rent?
 FROM film;
+#How many films have been rented?"
 SELECT
 COUNT(RENTAL_ID)
 FROM RENTAL;
